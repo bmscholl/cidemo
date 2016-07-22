@@ -7,7 +7,7 @@
 <script>
 var app = angular.module("myList", []);
 app.controller("myCtrl", function($scope) {
-    $scope.products = ["Jenkins", "VSTS", "CircleCI"];
+    $scope.products = ["Jenkins", "VSTS"];
     $scope.addItem = function () {
         $scope.errortext = "";
         if (!$scope.addMe) {return;}
